@@ -1,4 +1,7 @@
 Mongo DB Insert Script
+
+
+
 db.user.insert({"id":"2", "email":"sjainapur@gmail.com", "password":"$2a$10$BKm2FpzAbfw.qf7GKITd9ODNPHuwpAz9XjdCixfMl4hCg6yLMvOya", "name":"Satish", "lastName":"Jainapur", "active":1, "isLoacked":true, "isExpired":false, "isEnabled":true, "role":[{"id":"1", "role":"USER"},{"id":"2", "role":"ADMIN"}]})
 
 db.role.insert({"id":1, "role":"USER"})
